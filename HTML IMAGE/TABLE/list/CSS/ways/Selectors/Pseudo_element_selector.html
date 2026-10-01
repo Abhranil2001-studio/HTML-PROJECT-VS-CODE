@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: blue;
+        }
+        p::first-line{
+            color: aqua;
+        }
+        p::after
+        {
+            content: " end=>";
+        }
+        p::before{
+            content: "welcome =>";
+        }
+        p::selection{
+            color: white;
+            background-color: blue;
+        }
+        ul>li{
+            color: red;
+        }
+        ul>li::marker{
+            content: "🌴";
+        }
+        input::placeholder{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime exercitationem, sequi qui necessitatibus molestiae aperiam nisi id ea, eius, rerum tempore? Repellat ullam nesciunt laboriosam at officia animi, esse nulla atque blanditiis fuga sit. At aspernatur cupiditate dolorum. Animi reprehenderit impedit facilis beatae consectetur quo ab minima debitis eius obcaecati?</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>REACT</li>
+    </ul>
+    <form action="">
+        <input type="text" name="" id="" placeholder="enter name">
+    </form>
+</body>
+</html>

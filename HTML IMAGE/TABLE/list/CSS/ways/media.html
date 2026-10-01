@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #a{
+        width: 100%;
+        height: 100vh;
+        background-color: aqua;
+       }
+       @media screen and (min-width:0px) and (max-width:400px)
+       {
+        #a{
+            background-color: blue;
+        }
+       }
+       @media screen and (min-width:401px) and (max-width:800px){
+        #a{
+            background-color: blueviolet;
+        }
+    }
+        @media screen and (min-width:801px) and (max-width:1200px) {
+            #a{
+                background-color: brown;
+            }
+            
+        }
+        @media screen and (min-width:1201px) and (max-width:1600px) {
+            #a{
+                background-color: green;
+            }
+            
+        }
+
+       @media screen and (min-height: 801px) {
+            #a{
+                background-color: rgb(128, 15, 0);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="a"></div>
+</body>
+</html>

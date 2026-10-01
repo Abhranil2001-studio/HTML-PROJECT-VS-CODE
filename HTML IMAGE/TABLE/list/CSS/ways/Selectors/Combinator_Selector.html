@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div h1{
+            color: aqua;
+        }
+        div h2{
+            color: rgb(187, 19, 19);
+        }
+        div>h1{
+            color: blueviolet;
+            background-color: brown;
+        }
+        div>h2{
+            color: blue;
+            background-color: rgb(9, 255, 0);
+        }
+        div+p{
+            color: aqua;
+            background-color: blueviolet;
+        }
+        div~p{
+            background-color: rgb(226, 119, 43);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>direct children</h1>
+        <h2>direct children</h2>
+        <article>
+            <h1>indirect children</h1>
+            <h2>indirect children</h2>
+        </article>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h4>Lorem ipsum dolor sit amet.</h4>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
